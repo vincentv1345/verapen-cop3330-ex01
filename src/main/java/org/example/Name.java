@@ -1,7 +1,8 @@
 package org.example;
 import java.util.Scanner;
 /**
- *
+ * UCF COP3330 Summer 2021 Assignment 1 Solutions
+ *  *  Copyright 2021 Vincent Verapen
  */
 public class Name
 {
@@ -11,8 +12,6 @@ public class Name
         Greeter greeter = new Greeter();
         System.out.print("What is your name? ");
         String newName = name.nextLine();
-        System.out.println("Hello " + newName + " nice to meet you!");
-        String greetingString = greeter.greet(newName);
-        System.out.println(greetingString);
+        String greet = greeter.greet(newName);
     }
 }
